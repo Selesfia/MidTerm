@@ -6,10 +6,13 @@ In this program project, we will utilize the power of transformer models to buil
 # System Architecture
 The system architecture consists of the following components:
 
-Pre-trained Transformer Models: We will use the MarianMTModel class from the transformers library to load the pre-trained English-to-Chinese and Chinese-to-English translation models. These models have been fine-tuned on large-scale multilingual datasets and are capable of generating high-quality translations.
-Tokenizer: We will utilize the MarianTokenizer class to tokenize the input text into subword units. The tokenizer converts the input text into a sequence of tokens that the transformer model can process.
-Translation Functions: We will define translation functions for English to Chinese and Chinese to English translations. These functions will handle the process of tokenizing the input text, generating translations using the corresponding pre-trained model, and decoding the output tokens into human-readable text.
-Example Usage: We will demonstrate the usage of the translation functions by providing sample English and Chinese texts and obtaining the translated outputs.
+ * Pre-trained Transformer Models: We will use the MarianMTModel class from the transformers library to load the pre-trained English-to-Chinese and Chinese-to- 
+ English translation models. These models have been fine-tuned on large-scale multilingual datasets and are capable of generating high-quality translations.
+ * Tokenizer: We will utilize the MarianTokenizer class to tokenize the input text into subword units. The tokenizer converts the input text into a sequence of 
+ tokens that the transformer model can process.
+ * Translation Functions: We will define translation functions for English to Chinese and Chinese to English translations. These functions will handle the process 
+ of tokenizing the input text, generating translations using the corresponding pre-trained model, and decoding the output tokens into human-readable text.
+ Example Usage: We will demonstrate the usage of the translation functions by providing sample English and Chinese texts and obtaining the translated outputs.
 
 # Implementation
 The implementation involves the following steps:
@@ -44,3 +47,5 @@ Language processing with transformer models opens up numerous possibilities for 
 Please note that the above report is a high-level overview of the program project, and the code provided is a simplified example. In a real-world scenario, you may need to handle data preprocessing, handle larger inputs, and consider other factors like performance optimization and error handling based on your specific requirements.
 
 Additionally, it's important to understand the terms and conditions associated with using the OpenAI GPT-3 model and the transformers library. Ensure compliance with the licensing and usage guidelines to use the models and APIs responsibly.
+
+The Chinese Language that is used is the simplified version.
