@@ -21,7 +21,7 @@ Example usage: We will provide sample English and Chinese texts and demonstrate 
 
 # Results
 Upon running the program, we obtain the following translations:
-
+```
 English to Chinese:
 Input: "Hello, how are you?"
 Output: "你好，你好吗？"
@@ -29,6 +29,7 @@ Output: "你好，你好吗？"
 Chinese to English:
 Input: "你好，你好吗？"
 Output: "Hello, how are you?"
+```
 
 The translations demonstrate the successful language processing capabilities of the system. The transformer models effectively capture the linguistic patterns and generate accurate translations between English and Chinese.
 
